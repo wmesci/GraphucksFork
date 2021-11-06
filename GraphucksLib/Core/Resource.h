@@ -1,5 +1,6 @@
 #pragma once
 #include "GraphucksComponent.h"
+#include <string>
 #include <d2d1_1.h>
 #include <vector>
 #include <wrl.h>

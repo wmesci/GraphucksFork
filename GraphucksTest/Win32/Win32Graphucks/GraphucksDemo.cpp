@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "GraphucksDemo.h"
 #include <Graphucks.h>
+#include <cmath>
 #include <memory>
 #include <ppl.h>
 #include <Shlwapi.h>

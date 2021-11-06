@@ -10965,9 +10965,10 @@ namespace KennyKerr
 
         inline auto Factory::GetDesktopDpi() const -> float
         {
-            float x, y;
-            (*this)->GetDesktopDpi(&x, &y);
-            return x;
+            //float x, y;
+            //(*this)->GetDesktopDpi(&x, &y);
+            return GetDpiForSystem();
+            //return x;
         }
 
         inline auto Factory::CreateRectangleGeometry(RectF const & rect) const -> RectangleGeometry
